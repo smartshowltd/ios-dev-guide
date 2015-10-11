@@ -14,7 +14,7 @@ suggestions.
 * [Objective-C Coding Conventions](#objective-c-coding-conventions)
 * [Project Technical Conventions](#project-technical-conventions)
     * [Xcode](#xcode)
-	* [Git Submodules](#submodules)
+	* [CocoaPods](#cocoapods)
     * [Graphic Assets](#graphic-assets)
     * [Groups Structure in Project Navigator](#groups-structure-in-project-navigator)
     * [Warnings](#warnings)
@@ -71,10 +71,10 @@ a lot of effort to do so. In that case, we still need to keep Xcode
 	
 	 	ln -s /Applications/Xcode4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs
 
-### Git Submodules
+### CocoaPods
 
-Use [Git Submodules](http://git-scm.com/docs/git-submodule) to manage libraries. Don't copy
-library source files into the project.
+Use [Cocoapods](http://cocoapods.org) to manage libraries. Don't copy
+library source files into the project.  In order to this it will require that you have CocoaPods installed on your computer.  We try to use the latest stable version of libraries, however occasionally this is not possible and we will use an release explicitly specified in the Podfile.
 
 ### Graphic Assets
 
